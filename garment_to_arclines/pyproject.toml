@@ -1,0 +1,14 @@
+[project]
+name = "garment-to-arclines"
+version = "0.1.0"
+description = "Convert GarmentCodeData panels into D4D Arc-Line Shapes"
+requires-python = ">=3.12"
+dependencies = [
+    "d4descent",
+    "matplotlib>=3.11.0",
+    "numpy>=2.5.1",
+    "svgpathtools>=1.7.2",
+]
+
+[tool.uv.sources]
+d4descent = { path = "../d4descent", editable = true }

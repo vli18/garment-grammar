@@ -1,0 +1,8 @@
+# Large data / generated output
+GarmentCodeData/
+
+# Separate nested git repo (own remote) - not tracked here
+d4descent/
+
+# OS
+.DS_Store
